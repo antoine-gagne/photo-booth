@@ -33,3 +33,8 @@ echo "module.exports = {
     ]
   }
 };" > webpack.config.js
+
+# To be able to use CSS in webpack
+npm install --save-dev style-loader css-loader
+npm install react-webcam
+npm install --save-dev @babel/plugin-proposal-class-properties
